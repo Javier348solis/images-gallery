@@ -7,9 +7,9 @@ btn4.addEventListener("click", (e) => {
     //datos localStorage
     if (input1.value === "javiersolisretana@gmail.com" && input2.value === "Javier12pxc56" && input3.value === "123456") {
        e.preventDefault()
-        window.location.href="crear-cuenta.html"
+        window.location.href="pagina-principal.html"
     } else {
         alert("Datos incorectos")
-    }
+    }   
 })
 //Hacer conversion de JAsonArray 
