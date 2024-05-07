@@ -4,6 +4,7 @@ var input3 = document.getElementById("input3")
 var btn4 = document.getElementById("btn4")
 
 btn4.addEventListener("click", (e) => {
+    //datos localStorage
     if (input1.value === "javiersolisretana@gmail.com" && input2.value === "Javier12pxc56" && input3.value === "123456") {
        e.preventDefault()
         window.location.href="crear-cuenta.html"
@@ -11,3 +12,4 @@ btn4.addEventListener("click", (e) => {
         alert("Datos incorectos")
     }
 })
+//Hacer conversion de JAsonArray 
