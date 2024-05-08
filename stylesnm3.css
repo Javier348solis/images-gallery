@@ -1,0 +1,27 @@
+#Singupform {
+    width: 300px;
+    border: 1px;
+    background-color: rgba(235, 229, 229, 0.4);
+    display: flex;
+    justify-content: center;
+    padding: 20px 25px;
+    flex-direction: column;
+}
+body {
+    background-image: url('src/Images/background-7855413.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+input {   
+    background-color: rgb(255, 69, 0, 0.4);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+input::placeholder{
+    color: rgb(50, 46, 46) ;
+}
