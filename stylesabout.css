@@ -1,5 +1,5 @@
 body {
-    background-image: url("./src/Images/girl-2436545.jpg");
+    background-image: url("./src/Images/woman-570883.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -10,6 +10,24 @@ body {
     justify-content: center;
 }
 .parrafo {
-    color: yellow;
+    color: rgb(248, 245, 245);
     font-size:x-large;
+}
+.font {
+    display: flex;
+    justify-content: center;
+}
+
+.squad {
+font-size: large;
+display: flex;
+justify-content: center;
+}
+.list {
+    list-style: none;
+    border: 3px solid black;
+}
+.squad2 {
+    list-style: none;
+    border: 3px solid black;
 }

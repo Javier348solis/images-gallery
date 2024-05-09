@@ -1,24 +1,38 @@
 const boton3 = document.getElementById("boton3")
+
+const nombre = document.getElementById("Nombre")
+const correo = document.getElementById("Correo")
+const contrasena = document.getElementById("Contrasena")
+const confirmar = document.getElementById("Confirmar")
+
+//recordar la info al array 
+let listaUsuarios=[]
+
 boton3.addEventListener("click", (e)=>{
     e.preventDefault()
-    const Nombre = document.getElementById("Nombre").value
-    const Correo = document.getElementById("Correo").value
-    const Contrasenia = document.getElementById("Contraseña").value
-    const Confirmar = document.getElementById("Confirmar").value
+  
+  
 
-    const Users = JSON.parse(localStorage.getItem("users")) || []
     let usuarios = {
-    nombre: Nombre,
-    correo: Correo,
-    contrasenia: Contrasenia,
-    confirmar:Confirmar
+    nombre: nombre.value,
+    correo: correo.value,
+    contrasenia: contrasena.value,
+    confirmar:confirmar.value,
     }
+
+
+
+    listaUsuarios.push(usuarios)
+
+
+    localStorage.setItem("listaUsuarios",JSON.stringify(listaUsuarios));
+
     
-    const isUsersRegistered = Users.find(user => user.correo === Correo.value)
+   /* const isUsersRegistered = Users.find(user => user.correo === Correo.value)
     if (isUsersRegistered) {
         return alert("El usuario ya esta registrado")
     }
     Users.push(usuarios)
     localStorage.setItem("users",JSON.stringify(Users))
-   
+    */
 })
