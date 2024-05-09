@@ -1,0 +1,15 @@
+body {
+    background-image: url("./src/Images/girl-2436545.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.letter {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+}
+.parrafo {
+    color: yellow;
+    font-size:x-large;
+}
