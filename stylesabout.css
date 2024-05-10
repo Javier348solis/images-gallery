@@ -25,7 +25,8 @@ justify-content: center;
 }
 .list {
     list-style: none;
-    border: 3px solid rgb(66, 63, 63);
+    border: 3px solid rgb(234, 150, 13);
+    color: rgb(175, 24, 140);
 }
 .squad2 {
 font-size: large;
@@ -38,5 +39,6 @@ justify-content: center;
 }
 .list2 {
     list-style: none;
-    border: 3px solid rgb(64, 62, 62);
+    border: 3px solid rgb(234, 150, 13)  ;
+    color: rgb(175, 24, 140);
 }
