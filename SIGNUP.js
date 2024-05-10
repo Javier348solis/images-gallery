@@ -19,6 +19,7 @@ let listaUsuarios=JSON.parse(localStorage.getItem("listaUsuarios")) || [] // Usa
             for(let i = 0; i < listaUsuarios.length; i++) {
             if (nombre.value == listaUsuarios[i].nombre) {
             alert("EL USUARIO YA ESTÁ REGISTRADO")
+            window.location.href="index.html"
             return;
             }
         }
